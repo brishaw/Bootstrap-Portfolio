@@ -1,0 +1,89 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+    background: url(../images/concrete_seamless.png) repeat;
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 50px; /* Vertically center the text there */
+  border-top: 8px solid #4aaaa5;
+  background-color: #666666;
+}
+
+footer span {
+    display: block;
+    text-align: center;
+    font-size: 11px;
+    color: #cccccc;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.875rem;
+    font-weight: bold;
+}
+
+.navbar {
+    padding: 0;
+    margin-bottom: 38px;
+    height: 90px;
+    border-bottom: 2px solid #cccccc;
+}
+
+h1.navbar-brand {
+    width: 250px;
+    line-height: 2.6;
+    margin: 0;
+    text-align: center;
+    font-size: 1.875rem;
+    color: #ffffff;
+    background-color: #4aaaa5;
+}
+
+a.nav-link, a.nav-link:visited {
+    font-size: 1.125rem;
+    color: #777777;
+}
+
+.container {
+    max-width: 960px;
+    padding: 0;
+}
+
+main {
+    padding: 32px 30px 30px 30px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+}
+
+main h1 {
+    margin-bottom: 30px;
+    padding-bottom: 34px;
+    color: #4aaaa5;
+    border-bottom: 3px solid #dddddd;
+}
+
+.bio {
+    padding: 30px;
+}
+
+/*** testing css ***/
+
+.container {
+    border-left: 1px solid red;
+    border-right: 1px solid red;
