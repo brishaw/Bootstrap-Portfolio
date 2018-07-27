@@ -41,7 +41,7 @@ h1 {
 .navbar {
     padding: 0;
     margin-bottom: 38px;
-    height: 90px;
+    /* height: 90px; */
     border-bottom: 2px solid #cccccc;
 }
 
