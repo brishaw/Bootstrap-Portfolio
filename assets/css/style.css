@@ -1,3 +1,54 @@
+
+body {
+  background: url(../images/concrete_seamless.png) repeat;
+}
+
+header {
+  margin-bottom: 38px;
+}
+
+nav {
+  border-bottom: 2px solid #cccccc;
+}
+
+nav .container {
+  padding: 0;
+}
+
+.navbar {
+  padding: 0;
+}
+
+a.navbar-brand {
+  background-color: #4aaaa5;
+  height: 90px;
+  width: 250px;
+  text-align: center;
+  line-height: 2.5;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.navbar-light a.navbar-brand:hover {
+  transition: 500ms ease all;
+  background-color: #aa4a4f;
+  color: #ffffff;
+}
+
+.navbar-light .navbar-brand {
+  color: #ffffff
+}
+
+.container {
+  max-width: 960px;
+}
+
+main {
+  padding: 40px 30px;
+  border: 1px solid #dddddd;
+}
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
@@ -10,12 +61,19 @@ body {
 }
 .footer {
   position: absolute;
-  bottom: 0;
+  bottom: -8px; /* offsetting the border-top---if no border then set bottom to 0 */
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 60px;
-  line-height: 60px; /* Vertically center the text there */
-  background-color: #f5f5f5;
+  line-height: 52px; /* Vertically center the text there --- use same value as height unless using a border */
+  text-align: center;
+  color: #cccccc;
+  background-color: #666666;
+  border-top: 8px solid #4aaaa5;
+}
+
+footer p {
+  margin: 0;
 }
 
 
@@ -23,9 +81,9 @@ body {
 -------------------------------------------------- */
 /* Not required for template or sticky footer method. */
 
-body > .container {
+/* body > .container {
   padding: 60px 15px 0;
-}
+} */
 
 .footer > .container {
   padding-right: 15px;
