@@ -202,3 +202,18 @@ footer p {
 code {
   font-size: 80%;
 }
+
+/* media queries */
+@media only screen and (min-width: 960px) {
+
+    .bio img {
+      width: 200px;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+
+    .bio .img_box {
+      float: none;
+    }
+}
