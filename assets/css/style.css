@@ -29,6 +29,7 @@ nav {
   text-decoration: none;
   padding: 10px 15px;
   font-size: 100%;
+  border-right: 1px solid #efefef;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
@@ -37,7 +38,7 @@ nav {
   transition: 500ms ease all;
 }
 
-nav li:after {
+/* nav li:after {
   content: "|";
   margin-right: -5px;
   color: red;
@@ -46,7 +47,7 @@ nav li:after {
 nav li:last-child::after {
     margin-right: 0;
     content: "";
-}
+} */
 
 nav .container {
   padding: 0;
@@ -106,6 +107,55 @@ main p {
 .bio img:hover {
   transition: 500ms ease all;
   transform: scale(1.7);
+}
+
+/* portfolio page styles */
+
+.gallery article {
+  position: relative;
+  margin-bottom: 55px;
+}
+
+.gallery article:last-child {
+  margin-bottom: 0;
+}
+
+.gallery article a {
+  position: absolute;
+  bottom: 9px;
+  height: 60px;
+  width: 100%;
+  padding: 20px 0 0 0;
+  background-color: #4aaaa5;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 17px;
+  color: #ffffff;
+}
+
+.gallery article a:hover {
+  transition: 500ms ease all;
+  background-color: #aa4a4f;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.gallery img {
+  width: 100%;
+}
+
+/* contact page styles */
+
+input, textarea {
+  width: 100%;
+}
+
+textarea {
+  height: 200px;
+}
+
+input#submit {
+  
 }
 
 /* Sticky footer styles
