@@ -1,6 +1,19 @@
 
 body {
+  font-size: 18px;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #777777;
   background: url(../images/concrete_seamless.png) repeat;
+}
+
+h1 {
+  padding-bottom: 34px;
+  margin-bottom: 30px;
+  color: #4aaaa5;
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  border-bottom: 3px solid #dddddd;
 }
 
 header {
@@ -9,6 +22,30 @@ header {
 
 nav {
   border-bottom: 2px solid #cccccc;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #777777;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #ffffff;
+  background-color: #aa4a4f;
+  transition: 500ms ease all;
+}
+
+nav li:after {
+  content: "|";
+  margin-right: -5px;
+  color: red;
+}
+
+nav li:last-child::after {
+    margin-right: 0;
+    content: "";
 }
 
 nav .container {
@@ -44,9 +81,31 @@ a.navbar-brand {
   max-width: 960px;
 }
 
-main {
+main.container {
   padding: 40px 30px;
   border: 1px solid #dddddd;
+}
+
+main p {
+  margin: 0;
+  line-height: 2;
+}
+
+/* bio page styles */
+
+.bio h1 {
+  margin-bottom: 19px;
+}
+
+.bio .img_box {
+  margin: 11px 25px 0 0;
+  float: left;
+  overflow: hidden;
+}
+
+.bio img:hover {
+  transition: 500ms ease all;
+  transform: scale(1.7);
 }
 
 /* Sticky footer styles
