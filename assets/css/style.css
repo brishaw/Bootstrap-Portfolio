@@ -148,16 +148,33 @@ main p {
 
 input, textarea {
   width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 14px;
+  color: #777777;
+}
+
+input::placeholder {
+  font-size: 14px;
+  color: #4aaaa4;
 }
 
 textarea {
   height: 200px;
 }
 
-input#submit {
-  
+input.contact_submit {
+  width: 115px;
+  height: 40px;
+  padding: 0;
+  background-color: #4aaaa5;
+  border: none;
+  font-size: 100%;
+  color: #ffffff;
 }
-
+input.contact_submit:hover {
+  background-color: #aa4a4f;
+}
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
@@ -183,6 +200,7 @@ body {
 
 footer p {
   margin: 0;
+  font-size: 14px;
 }
 
 
@@ -204,16 +222,17 @@ code {
 }
 
 /* media queries */
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 625px) {
 
     .bio img {
       width: 200px;
     }
 }
 
-@media only screen and (max-width: 690px) {
+@media only screen and (max-width: 625px) { 
 
     .bio .img_box {
       float: none;
+      margin: 11px 0px 30px 0;
     }
 }
