@@ -222,7 +222,7 @@ code {
 }
 
 /* media queries */
-@media only screen and (min-width: 625px) {
+@media only screen and (min-width: 626px) {
 
     .bio img {
       width: 200px;
@@ -235,4 +235,18 @@ code {
       float: none;
       margin: 11px 0px 30px 0;
     }
+}
+
+@media only screen and (max-width: 500px) {
+
+  a.navbar-brand {
+    width: 100%;
+    margin: 0;
+  }
+  .navbar-toggler {
+    position: absolute;
+    top: 170px;
+    right: 5px;
+    z-index: 1000;
+  }
 }
