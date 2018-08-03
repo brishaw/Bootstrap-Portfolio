@@ -142,9 +142,9 @@ footer p {
   margin-bottom: 55px;
 }
 
-.gallery article:last-child {
+/* .gallery article:last-child {
   margin-bottom: 0;
-}
+} */
 
 .gallery article a {
   position: absolute;
