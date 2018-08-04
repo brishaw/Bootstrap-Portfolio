@@ -139,7 +139,10 @@ footer p {
 
 .gallery article {
   position: relative;
-  margin-bottom: 55px;
+  padding-right: 0;
+  margin-bottom: 15px;
+  overflow: hidden;
+
 }
 
 /* .gallery article:last-child {
